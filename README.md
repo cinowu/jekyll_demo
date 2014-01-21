@@ -149,3 +149,31 @@ all right : click me <http://cinowu.github.io/jekyll_demo/>
 
 ps:article from runyifeng's [blog](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
+
+##btw
+在往github推送之前，可以在本地通过jekyll启动测试一下  
+可能会出现编码问题，更改vi _config.yml
+<pre>
+encoding: utf-8
+#baseurl: /jekyll_demo
+</pre>
+
+在jekyll-demo目录下执行启动  
+<pre>
+$ jekyll build
+Configuration file: f:/jekyll_demo/_config.yml
+            Source: f:/jekyll_demo
+       Destination: f:/jekyll_demo/_site
+      Generating... done.
+
+Administrator@PC121106ZS04 /f/jekyll_demo (gh-pages)
+$ jekyll serve
+Configuration file: f:/jekyll_demo/_config.yml
+            Source: f:/jekyll_demo
+       Destination: f:/jekyll_demo/_site
+      Generating... done.
+    Server address: http://0.0.0.0:4000
+  Server running... press ctrl-c to stop.
+</pre>
+
+访问<http://localhost:4000>
