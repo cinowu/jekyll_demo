@@ -144,5 +144,8 @@ Jekyll使用[Liquid](https://github.com/shopify/liquid/wiki/liquid-for-designers
 上传成功之后，等10分钟左右，访问<http://username.github.io/jekyll_demo/>就可以看到Blog已经生成了（将username换成你的用户名）。
 
 
+all right : click me <http://cinowu.github.io/jekyll_demo/>
+
+
 ps:article from runyifeng's [blog](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
