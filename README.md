@@ -177,3 +177,7 @@ Configuration file: f:/jekyll_demo/_config.yml
 </pre>
 
 访问<http://localhost:4000>
+
+
+##最后
+我们可以参考下<https://github.com/jekyll/jekyll/wiki/sites>,这个链接中列举了许多用jekyll创建的github博客
