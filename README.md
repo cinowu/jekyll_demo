@@ -224,8 +224,10 @@ Octopress 文章多了编译难免很慢
 - 加入Google Webmasters
 - 申请域名，更换域名
 
-参考<http://www.lizherui.com/pages/2013/08/17/build_blog.html#comment-1082841744>
-
+参考  
+<http://www.lizherui.com/pages/2013/08/17/build_blog.html#comment-1082841744>  
+<http://beiyuu.com/why-blog/>  
+<http://beiyuu.com/github-pages/#github>
 
 
 
