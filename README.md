@@ -181,3 +181,43 @@ Configuration file: f:/jekyll_demo/_config.yml
 
 ##最后
 我们可以参考下<https://github.com/jekyll/jekyll/wiki/sites>,这个链接中列举了许多用jekyll创建的github博客
+
+
+##附加几种常用博客系统说明
+###Jekyll 和 Octopress
+Jekyll 和 Octopress 本是同源，所以本质上差别不大。Octopress 是基于 Jekyll 的。他们的关系就像 jQuery 与 js 的关系一样。  
+jekyll建议用jekyll-bootstrap框架<https://github.com/rose1988c/jekyll-bootstrap>
+Jekyll本是blog系统，但与wordpress不同，Jekyll是为静态文件blog而设计的，本地安装Jekyll后，可以使用jekyll   --server开启一个blog服务，也可以自己配置服务。jekyll的厉害之处也是她的原理是可以把markdown、textile等模板语言直接转换成html，还能像使用php等语言一样使用模板、引入模块，使用插件。markdown\textile语言是非常友好和方便的，是很多开发者非常喜爱和常用的静态模板语言，用于写博客和记录信息非常清晰便利。  
+Github支持Jekyll（同一开发者），在内部已经配置好了Jekyll，允许用户把Jekyll博客当作一个项目发布到Github，博客的所有文件通过git管理，永远都不会丢失，只要用户提交，Github自动会调用Jekyll，为用户把md和textile转换成可访问的html，所以用户也可以不在本地先转换格式。另外Github为用户的博客项目配置独立服务，使得可以以<http://username.github.io>方式访问，更可以设置CNAME指定另外的域名，还有很多功能，自己去发掘吧。  
+可以简单点理解，Jekyll是一套博客系统，而Github提供博客托管服务  
+<http://yanping.me/cn/blog/2013/08/11/github-pages-step-by-step-video/>
+
+
+**ekyll 和 Octopress上传发布细微区别:**
+jekyll 可以直接用git上传 .md or .html 文件不需要编译  
+Otcopress是makefile将文件转化.html发布。说的有点复杂了，其实就是编译成一个静态网站。  
+Octopress 文章多了编译难免很慢  
+
+
+
+###Hexo框架（Nodo.js）  
+又多了一种选择。  
+<http://zespia.tw/hexo/>
+<https://github.com/tommy351/hexo>
+
+
+###pelican（python）
+<http://www.lizherui.com/pages/2013/08/17/build_blog.html#comment-1082841744>
+
+
+
+
+当你开始搭建一个个人博客的时候，会出现类似这么多的博客系统干扰你，我要坚持搞好jekyll!!!
+
+
+
+
+
+
+
+
